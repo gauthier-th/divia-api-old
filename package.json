@@ -1,0 +1,16 @@
+{
+  "name": "divia-api",
+  "version": "1.0.0",
+  "description": "Une API pour récupérer les passages des bus / tram de Divia.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lordmorgoth",
+  "license": "MIT",
+  "dependencies": {
+    "bent": "^7.0.6",
+    "xml-js": "^1.6.11",
+    "xml2json": "^0.12.0"
+  }
+}
