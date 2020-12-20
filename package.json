@@ -1,6 +1,6 @@
 {
   "name": "divia-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Une API pour récupérer les passages des bus / tram de Divia.",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/TheLordMorgoth/divia-api.git"
+    "url": "https://github.com/gauthier-th/divia-api.git"
   },
   "author": "lordmorgoth",
   "license": "MIT",
@@ -17,7 +17,7 @@
     "xml-js": "^1.6.11"
   },
   "bugs": {
-    "url": "https://github.com/TheLordMorgoth/divia-api/issues"
+    "url": "https://github.com/gauthier-th/divia-api/issues"
   },
-  "homepage": "https://github.com/TheLordMorgoth/divia-api"
+  "homepage": "https://github.com/gauthier-th/divia-api#readme"
 }
