@@ -61,7 +61,7 @@ class Stop {
 		
 		if (typeof response.xmldata === 'object') {
 			const horaires = response.xmldata.horaires;
-			for (let passage of horaires.horaire.passages.passage) {
+			for (let passage of horaires.horaire.passages.passage || []) {
 				result.push(Passage.fromXML(passage, this));
 			}
 		}

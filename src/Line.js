@@ -64,7 +64,7 @@ class Line {
 
         if (typeof response.xmldata === 'object') {
             const alss = response.xmldata.alss;
-			for (let als of alss.als) {
+			for (let als of alss.als || []) {
                 result.push(Stop.fromXML(this, als));
             }
         }
